@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.company-name {
+    font-size: 2.5em; /* Make the company name big */
+    color: red; /* Set the color to red */
+    margin-bottom: 10px;
+}
+
+.meet-staff {
+    font-size: 1.2em;
+    color: #ddd; /* A lighter color for emphasis */
+    margin-bottom: 20px;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#staff-list h2 {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.staff-grid {
+    list-style-type: none;
+    padding: 0;
+    display: grid; /* Use grid layout for potential photo placement */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Basic responsive grid */
+    gap: 20px;
+}
+
+.staff-member {
+    background-color: #e9e9e9;
+    padding: 15px;
+    margin-bottom: 8px; /* Reduced margin as grid has gap */
+    border-radius: 5px;
+    text-align: center; /* Center content within each staff member block */
+}
+
+.staff-photo {
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    border-radius: 50%; /* Make it circular */
+    object-fit: cover; /* Ensure the image fills the circle without distortion */
+    margin-bottom: 10px;
+}
+
+.staff-name {
+    font-weight: bold;
+    display: block; /* Make name appear on its own line */
+    margin-bottom: 5px;
+}
+
+.staff-role {
+    color: #777;
+    display: block; /* Make role appear on its own line */
+    margin-bottom: 10px;
+}
+
+.staff-work {
+    font-size: 0.9em;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
